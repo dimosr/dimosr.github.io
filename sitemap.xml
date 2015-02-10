@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://www.dimosraptis.com/</loc>
+  <lastmod>2014-11-23T14:56:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.dimosraptis.com/index</loc>
+  <lastmod>2014-11-23T14:56:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.dimosraptis.com/programming</loc>
+  <lastmod>2014-11-23T14:55:55+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.dimosraptis.com/football</loc>
+  <lastmod>2014-11-23T14:56:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.dimosraptis.com/contact</loc>
+  <lastmod>2014-11-23T14:55:20+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>

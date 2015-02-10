@@ -1,0 +1,17 @@
+body{
+        background-color:rgb(160,160,160);
+}
+
+#map_address{
+	border:dotted;
+	font-size:20px;
+}
+
+#map_canvas {
+        height: 350px;
+	border:solid;
+}
+
+.well{
+	border:solid;
+}
