@@ -3,10 +3,16 @@
 	padding:25px;
 	color:gray;
 	font-size:27px;
+    border-width:3px;
+    border-style:groove;
+    border-color:#807969;
 }
 
 #projects_container{
 	padding:25px;
+    border-width:3px;
+    border-style:groove;
+    border-color:#807969;
 }
 
 .project-containers{
@@ -18,6 +24,7 @@
 .project-containers img{
 	width:100%;
 	height:100%;
+    box-shadow: 6px 6px 5px grey;
 }
 
 

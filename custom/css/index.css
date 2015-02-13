@@ -20,6 +20,12 @@ body{
 
 /*****  Basic Divs Styling   *****/
 
+#general-info-container{
+	border-width:3px;
+    border-style:groove;
+    border-color:#807969;
+}
+
 #basic_div{
 	margin:10px 10px 10px 25px;
 }
@@ -30,7 +36,10 @@ body{
 }
 
 #blog_text{
-	padding: 2%
+	padding: 2%;
+	border-width:3px;
+    border-style:groove;
+    border-color:#807969;
 }
 
 #profile_image{
