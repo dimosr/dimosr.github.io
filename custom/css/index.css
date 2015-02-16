@@ -3,6 +3,21 @@ body{
 	font-family: 'Shadows Into Light', cursive, League Gothic, Ubuntu, serif;	
 }
 
+/*****   Navigation Menu Styling  *****/
+
+#current {
+	/*border:2px solid white*/;
+	pointer-events: none;
+    cursor: default;
+    outline-style:ridge;
+    outline-color:white;
+    outline-width:medium;
+    outline-offset:10px;
+}
+
+.navbar li a {
+	margin:0px 10px 0px 10px;
+}
 
 /*****  Main Menu Styling   ********/
 
