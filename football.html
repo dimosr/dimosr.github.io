@@ -31,11 +31,11 @@
 	<nav id="main_menu" class="navbar navbar-inverse" role="navigation">
 	<div class="container-fluid">
 		<ul class="nav navbar-nav">
-			<li class="wobble-horizontal"><a href="index"/>Home</a></li>
-			<li class="wobble-horizontal"><a href="programming">Programming</a></li>
+			<li class="wobble-horizontal"><a class="internal-link" href="index"/>Home</a></li>
+			<li class="wobble-horizontal"><a class="internal-link" href="programming">Programming</a></li>
 			<li id="current" class="wobble-horizontal"><a href="football">Football</a></li>
-			<li class="wobble-horizontal"><a href="http://blog.dimosraptis.com/p/contact-me_3.html">Contact Me</a></li>
-			<li class="wobble-horizontal"><a href="http://blog.dimosraptis.com" rel="external">Blog</a></li>
+			<li class="wobble-horizontal"><a class="internal-link" href="http://blog.dimosraptis.com/p/contact-me_3.html">Contact Me</a></li>
+			<li class="wobble-horizontal"><a class="internal-link" href="http://blog.dimosraptis.com" rel="external">Blog</a></li>
 		</ul>
 	</div>
 	</nav>
@@ -133,17 +133,17 @@
 	<div class="row" id="social_net_div">
 		<div class="col-md-3" id="follow_me">Find me on : </div>
 		<div class="col-md-3 social-containers" id="linkedin">
-			<a href="https://www.linkedin.com/in/dimosraptis" rel="nofollow">
+			<a class="internal-link" href="https://www.linkedin.com/in/dimosraptis" rel="nofollow">
 			<img class="img-responsive img-thumbnail social-images pulse" src="img/linkedin.jpeg" alt="LinkedIn Image">
 			</a>
 		</div>
 		<div class="col-md-3 social-containers" id="facebook">
-			<a href="https://www.facebook.com/dimos.raptis" rel="nofollow">
+			<a class="internal-link" href="https://www.facebook.com/dimos.raptis" rel="nofollow">
 			<img class="img-responsive img-thumbnail social-images pulse" src="img/facebook.jpeg" alt="Facebook Image">
 			</a>
 		</div>
 		<div class="col-md-3 social-containers" id="Github">
-			 <a href="https://github.com/dimosr7" rel="nofollow">
+			 <a class="internal-link" href="https://github.com/dimosr7" rel="nofollow">
 			<img class="img-responsive img-thumbnail social-images pulse" src="img/github.png" alt="Github Image">
 			</a>
 		</div>
@@ -156,6 +156,8 @@
 		var video_index=0;
 		var video_sum=videos.length;
 		$(document).ready(function(){
+				$(document.body).hide();
+        		$(document.body).fadeIn(1500);
 
 				function enableGalleryEffect(){
 					$('li img').on('click',function(){
@@ -210,6 +212,15 @@
 
 				
 		});
+
+		$('.internal-link').click(function(){
+    		var href= $(this).attr('href');
+    		$(document.body).fadeOut( 1200, function(){
+            	window.location=href;
+      		})
+
+    		return false;
+    	});
 	</script>
   </body>
 </html>
