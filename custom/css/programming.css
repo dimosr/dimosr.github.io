@@ -8,6 +8,12 @@
     border-color:#807969;
 }
 
+#programming_info::first-letter{
+	font-family: 'Dancing Script', cursive, Georgia, Serif;
+	text-transform: capitalize;
+	font-size:45px;
+}
+
 #projects_container{
 	padding:25px;
     border-width:3px;

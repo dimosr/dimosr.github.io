@@ -50,6 +50,13 @@ body{
 	color:gray;
 }
 
+#intro_text::first-letter{
+	font-family: 'Dancing Script', cursive, Georgia, Serif;
+	text-transform: capitalize;
+	font-size:45px;
+	
+}
+
 #blog_text{
 	padding: 2%;
 	border-width:3px;
@@ -96,7 +103,7 @@ body{
 
 #follow_me{
 	color:rgb(200,200,200);
-	font-size:26px;
+	font-size:36px;
 	height:100%;
         padding: 4% 2.5%;
 }
@@ -108,4 +115,8 @@ body{
 .social-images {
 	max-height:60px;
 	max-width:60px;
+}
+
+img.social-images{
+	box-shadow: 6px 9px 32px grey;
 }
