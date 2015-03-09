@@ -54,7 +54,6 @@ body{
 	font-family: 'Dancing Script', cursive, Georgia, Serif;
 	text-transform: capitalize;
 	font-size:45px;
-	
 }
 
 #blog_text{
@@ -120,3 +119,6 @@ body{
 img.social-images{
 	box-shadow: 6px 9px 32px grey;
 }
+
+.white-tooltip + .tooltip > .tooltip-inner {background-color: white; color:black;}
+.tooltip.top .tooltip-arrow {border-top-color: white;}
