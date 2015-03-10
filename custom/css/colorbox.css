@@ -26,7 +26,7 @@
 #cboxLoadedContent{margin-bottom:5px;}
 #cboxLoadingOverlay{background:url(img/loading_background.png) no-repeat center center;}
 #cboxLoadingGraphic{background:url(img/loading.gif) no-repeat center center;}
-#cboxTitle{position:absolute; bottom:-35px; left:0;text-align:center; width:100%; font-weight:bold; color:#7C7C7C; font-size:25px;}
+#cboxTitle{position:absolute; bottom:-35px; left:0;text-align:center; width:100%; font-weight:bold; color:#7C7C7C; font-size:25px;padding-left:53px;padding-right:32px;}
 #cboxCurrent{display:none !important;}
 /*buttons*/
 #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible;  position:absolute; bottom:-29px; background:url(img/controls.png) no-repeat 0px 0px; width:23px; height:23px; text-indent:-9999px;}
