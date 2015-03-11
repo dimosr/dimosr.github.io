@@ -1,5 +1,5 @@
 /*Colorbox Core Style: The following CSS is consistent between example themes and should not be altered.*/
-#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999;}
 #cboxWrapper {max-width:none;}
 #cboxOverlay{position:fixed; width:100%; height:100%;}
 #cboxMiddleLeft, #cboxBottomLeft{clear:left;}
@@ -26,7 +26,7 @@
 #cboxLoadedContent{margin-bottom:5px;}
 #cboxLoadingOverlay{background:url(img/loading_background.png) no-repeat center center;}
 #cboxLoadingGraphic{background:url(img/loading.gif) no-repeat center center;}
-#cboxTitle{position:absolute; bottom:-35px; left:0;text-align:center; width:100%; font-weight:bold; color:#7C7C7C; font-size:25px;padding-left:53px;padding-right:32px;}
+#cboxTitle{position:relative; bottom:-13%; left:51%; text-align:left; width:50%; color:#333333; border: 1px solid #999999; padding: 10px; font-size: 1.6em; background: #f4f4f4;}
 #cboxCurrent{display:none !important;}
 /*buttons*/
 #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible;  position:absolute; bottom:-29px; background:url(img/controls.png) no-repeat 0px 0px; width:23px; height:23px; text-indent:-9999px;}
