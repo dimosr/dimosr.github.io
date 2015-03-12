@@ -5,7 +5,7 @@
 }
 
 #basic_div{
-	color:gray;
+	color:white;
 	font-size:26px;
 }
 
@@ -50,6 +50,8 @@
 
 #album_selector button:hover{
 	border-style:dotted;
+	font-weight:900;
+	font-size:101%;
 }
 /********** Responsive Video Embed ********/
 
