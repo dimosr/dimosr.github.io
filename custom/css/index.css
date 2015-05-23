@@ -97,6 +97,11 @@ body{
 
 /*****   Social Net Thumbnails Styling  *****/
 
+.social-containers a.internal-link{
+	position: relative;
+	left: 40%;
+}
+
 #social_net_div{
 	margin:30px 25px 75px 25px;
 	background-color:#222;
