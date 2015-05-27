@@ -64,6 +64,18 @@ body{
 	color:white;
 }
 
+@media (min-width: 440px) and (max-width:547px){
+	#intro_text{
+		float: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width:921px){
+	#intro_text{
+		float: left;
+	}
+}
+
 #intro_text::first-letter{
 	font-family: 'Dancing Script', cursive, Georgia, Serif;
 	text-transform: capitalize;
