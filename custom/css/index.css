@@ -19,6 +19,16 @@ body{
 	margin:0px 10px 0px 10px;
 }
 
+.navbar li{
+	float:left;
+}
+
+@media (max-width: 680px){
+	#current{
+		outline-offset:0px;
+	}
+}
+
 .navbar li:hover{
 	font-weight: 900;
 }
