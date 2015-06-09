@@ -90,9 +90,10 @@ body{
 }
 
 #profile_image{
+	margin-top: 10px;
 	height:300px;
 	width:300px;
-	background-color:rgb(70,70,70);	
+	background-color:rgb(160,160,160);	
 	padding:2.5px;
 	margin-right:20px;
 	-webkit-transition: all 1s ease;
