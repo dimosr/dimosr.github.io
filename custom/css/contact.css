@@ -1,0 +1,55 @@
+#contact-header{
+	border: 2px solid #6D6B6B;
+	background: #B5B5B5;
+	border-bottom: 0px;
+}
+
+#contact-header h1{
+	line-height: 60px;
+    text-align: center;
+}
+
+#contact-content{
+	border: 2px solid #6D6B6B;
+    line-height: 40px;
+    padding: 30px 0px 30px 0px;
+}
+
+#submit{
+	margin-left: 14%;
+}
+
+#form-image{
+	height: 200px;
+}
+
+#form-image img{
+	height: 100%;
+}
+
+@media (min-width:370px) and (max-width:465px) {
+	#form-image img{
+		height: 65%;
+	}
+	#message{
+		width: 90%;
+	}
+}
+
+#message{
+	width: 68%;
+}
+
+@media (max-width:370px) {
+	#form-image img{
+		height: 55%;
+	}
+	#message{
+		width: 100%;
+	}
+}
+
+/* BT fix */
+#contact-container {
+	margin: 0px;
+}
