@@ -60,7 +60,11 @@
 
 
 	<div id="video_container_1" class="album_containers">
-	<div class="col-md-12 album_header" ><h1>Video Compilations</h1>     <div id="next-button" class="btn-group btn-group-lg">Next Video</div></div>
+		<div class="col-md-12 album_header" >
+			<h1>Video Compilations</h1>
+			<span id="video_no" class="badge">1</span>
+			<div id="next-button" class="btn-group btn-group-lg">Next Video</div>
+		</div>
 		<div class="embed-responsive embed-responsive-16by9 col-md-12" id="video_wrapper">
 			<iframe class="embed-responsive-item" src="//www.youtube.com/embed/Pc22NdthYVI"  allowfullscreen></iframe>
 		</div>
@@ -149,7 +153,7 @@
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<script src="custom/js/colorbox/jquery.colorbox-min.js"></script>
 	<script>
-		var videos=["//www.youtube.com/embed/Pc22NdthYVI", "//www.youtube.com/embed/T-KX8ng9gyk"];
+		var videos=["//www.youtube.com/embed/Pc22NdthYVI", "//www.youtube.com/embed/T-KX8ng9gyk", "//www.youtube.com/embed/lkB2NWCLnPw"];
 		var video_index=0;
 		var video_sum=videos.length;
 		$(document).ready(function(){
@@ -184,6 +188,7 @@
 					$('#next-button').click( function(){
 						video_index=(video_index+1)%(video_sum);
 						$('#video_wrapper iframe').attr('src', videos[video_index]);
+						$('#video_no').html(video_index+1);
 					});
 				}
 						

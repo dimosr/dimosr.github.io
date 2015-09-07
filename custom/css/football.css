@@ -57,7 +57,7 @@
 
 #video_wrapper{
 	margin-bottom:25px;
-	border:solid;	
+	border:solid;
 }
 
 #next-button{
@@ -71,4 +71,8 @@
 
 .btn {
     white-space: normal;
+}
+
+#video_no{
+	font-size:20px;
 }
