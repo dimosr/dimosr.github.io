@@ -58,7 +58,12 @@
 #video_wrapper{
 	margin-bottom:25px;
 	border:solid;
+
+	-webkit-box-shadow: 0 -1px 13px 8px #9E9E9E;
+	-moz-box-shadow: 0 -1px 13px 8px #9E9E9E;
+	box-shadow: 0 -1px 13px 8px #9E9E9E;	
 }
+
 
 #next-button{
 	cursor:pointer;
