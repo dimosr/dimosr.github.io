@@ -189,7 +189,7 @@
 				function assignNextButton(){
 					$('#next-button').click( function(){
 						video_index=(video_index+1)%(video_sum);
-						$('#video_wrapper iframe').attr('src', videos[video_index]);
+						document.getElementById("video_wrapper").childNodes[1].src = videos[video_index];
 						$('#video_no').html(video_index+1);
 					});
 				}
