@@ -1,5 +1,5 @@
 
-#programming_info{
+#software_info{
 	padding:25px;
 	color:white;
 	font-size:27px;
@@ -8,7 +8,7 @@
     border-color:#807969;
 }
 
-#programming_info::first-letter{
+#software_info::first-letter{
 	font-family: 'Dancing Script', cursive, Georgia, Serif;
 	text-transform: capitalize;
 	font-size:45px;
