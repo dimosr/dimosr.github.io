@@ -1,22 +1,22 @@
-#projects-title{
+.container-title{
 	color: white;
 	margin: 0px 0px 20px 0px;
 }
 
-.project-tooltip-container{
+.project-tooltip-container, .learning-material-tooltip-container{
 	width: 400px;
 	font-size: 20px;
 	text-align: left;
 }
 
-.project-tooltip-container img{
+.project-tooltip-container img, .learning-material-tooltip-container img{
 	width: 50%;
 	float: left;
 	border: 2px ridge grey; 
 	margin: 0px 10px 0px 0px;
 }
 
-#software_info{
+#research-material-info, #learning-material-info{
 	padding:25px;
 	color:white;
 	font-size:27px;
@@ -25,7 +25,7 @@
     border-color:#807969;
 }
 
-#software_info::first-letter{
+#research-material-info::first-letter{
 	font-family: 'Dancing Script', cursive, Georgia, Serif;
 	text-transform: capitalize;
 	font-size:45px;
@@ -50,4 +50,8 @@
     box-shadow: 6px 6px 5px grey;
 }
 
-
+.book-image{
+	border-top: 3px groove brown;
+	border-left: 3px ridge brown;
+	border-right: 2px ridge white;
+}

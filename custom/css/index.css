@@ -143,12 +143,12 @@ body{
 	padding: 2.5% 2.5%;
 }
 
-.social-images {
+.social-images, .project-image {
 	max-height:60px;
 	max-width:60px;
 }
 
-img.social-images{
+img.social-images, img.project-image{
 	box-shadow: 6px 9px 32px grey;
 }
 
