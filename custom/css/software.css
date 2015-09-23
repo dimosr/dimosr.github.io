@@ -1,3 +1,20 @@
+#projects-title{
+	color: white;
+	margin: 0px 0px 20px 0px;
+}
+
+.project-tooltip-container{
+	width: 400px;
+	font-size: 20px;
+	text-align: left;
+}
+
+.project-tooltip-container img{
+	width: 50%;
+	float: left;
+	border: 2px ridge grey; 
+	margin: 0px 10px 0px 0px;
+}
 
 #software_info{
 	padding:25px;

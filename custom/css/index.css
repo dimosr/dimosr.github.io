@@ -154,3 +154,13 @@ img.social-images{
 
 .white-tooltip + .tooltip > .tooltip-inner {background-color: white; color:black;}
 .tooltip.top .tooltip-arrow {border-top-color: white;}
+
+/* Bootstrap tooltip fixes */
+.tooltip-inner {
+    max-width: 10000px;
+}
+.tooltip.in {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+/* ----------------------- */

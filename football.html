@@ -160,7 +160,7 @@
 		var video_sum=videos.length;
 		$(document).ready(function(){
         		$(document.body).fadeIn(2200);
-        		$(".social-containers").tooltip();
+        		$('[data-toggle="tooltip"]').tooltip();
 
 				function enableGalleryEffect(){
 					$('.photo_gallery ul li a').colorbox({rel:'gal', maxWidth: '65%', maxHeight: '65%'});
