@@ -3,14 +3,15 @@
 	margin: 0px 0px 20px 0px;
 }
 
-.project-tooltip-container, .learning-material-tooltip-container{
+.project-tooltip-container, .learning-material-tooltip-container, .research-material-tooltip-container{
 	width: 400px;
 	font-size: 20px;
 	text-align: left;
 }
 
-.project-tooltip-container img, .learning-material-tooltip-container img{
-	width: 50%;
+
+.project-tooltip-container img, .learning-material-tooltip-container img, .research-material-tooltip-container img{
+	width: 57%;
 	float: left;
 	border: 2px ridge grey; 
 	margin: 0px 10px 0px 0px;
@@ -54,4 +55,6 @@
 	border-top: 3px groove brown;
 	border-left: 3px ridge brown;
 	border-right: 2px ridge white;
+	max-width: 60px;
+	height: auto;
 }
