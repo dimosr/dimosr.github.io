@@ -79,7 +79,7 @@
 	box-shadow: #F5F5DC 1px 2px 80px;
 }
 
-#house{
+#house, #email, #mobile{
 	height:35px;
 	width: 35px;
 }
