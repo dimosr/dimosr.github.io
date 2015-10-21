@@ -57,7 +57,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" id="user-info">
                                 <div class="input-group">
                                     <input class="form-control" type="text" name="name" size="30" placeholder="Your name"><br>
-                                    <input class="form-control" type="text" name="email" size="30" placeholder="Your email"><br>
+                                    <input class="form-control" if="fromEmail" type="text" name="email" size="30" placeholder="Your email"><br>
                                 </div>
                                 
                         </div>
@@ -147,7 +147,7 @@
             });
 
             $('#submit').click(function(event){
-                if(!validateEmail($('#email').val())){
+                if(!validateEmail($('#fromEmail').val())){
                     swal("Invalid email", "Your email address is not valid.", "error");
                 }
                 else{
