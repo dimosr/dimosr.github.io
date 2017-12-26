@@ -1,0 +1,57 @@
+# Site
+title:          Dimos Raptis
+bio:            'Personal website of Dimos Raptis, including professional information, projects and blog posts'
+description:    "Hi there, I am Dimos. Welcome to my personal web spot."
+picture:        'assets/img/profile.jpg'
+locale:         en_US
+url:            https://dimosr.github.io
+
+
+# Jekyll
+permalink:      /:title/
+markdown:       kramdown
+highlighter:    rouge
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Social
+# if you don't have any of social below, comment the line.
+email: raptis.dimos@yahoo.gr
+twitter: dimosr7
+facebook: dimos.raptis
+google:
+  #plus: #username
+  analytics: 58054781
+  #verify:
+  #ad-client:
+  #ad-slot:
+github: dimosr
+stackoverflow: 3531794/dimos
+linkedin: dimosraptis
+instagram: dimosr7
+
+# Paginate
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
