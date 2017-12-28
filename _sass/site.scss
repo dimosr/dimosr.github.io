@@ -122,7 +122,8 @@ body {
 }
 .ustr {
 	width: auto;
-	height: 60px;
+	height: auto;
+	overflow: hidden;
 }
 .ust {
   animation-name: ustegel;
