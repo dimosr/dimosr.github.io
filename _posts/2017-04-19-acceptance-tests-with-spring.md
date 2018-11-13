@@ -95,6 +95,8 @@ In the method described before, we are essentially mocking all the dependent sys
 
 There's another approach to this problem, called **consumer-driven contract tests**. These tests are meant to test just the contract between 2 systems and they can detect changes in the contract, avoiding all the overhead of integration tests. Thus, theoretically the combination of **acceptance + consumer-driven tests** can achieve the same behaviour coverage as the combination of **acceptance + integration tests**, while keeping tests more focused on a single thing and less flaky. For a more elaborate discussion on this pattern and the usage of contract tests, a very good reference is [this article](https://martinfowler.com/articles/practical-test-pyramid.html).
 
+**[Update - 13/11/2018]** Almost a year after this post was published, I was invited to give a talk about the methodology presented here in the microservices meetup in London. So, if you prefer the audiovisual version, you can find this talk [here](https://skillsmatter.com/skillscasts/12275-acceptance-testing-in-the-microservices-world).
+
 ## References
 
 [[1](https://martinfowler.com/articles/microservice-testing/)] "Testing Strategies in a Microservices Architecture", Martin Fowler
