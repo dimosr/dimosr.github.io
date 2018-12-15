@@ -4,6 +4,7 @@ bio:            'Personal website of Dimos Raptis, including professional inform
 description:    "Hi there, I am Dimos. Welcome to my personal web spot."
 picture:        'assets/img/profile.jpg'
 locale:         en_US
+author:         "Dimos Raptis"
 url:            https://dimosr.github.io
 
 

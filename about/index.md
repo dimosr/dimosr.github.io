@@ -1,29 +1,13 @@
 ---
 layout: page
-title: It's all about me
+title: About me
 tags: [about, Dimos, Raptis, personal, website, blob, software, career, professional]
 date: 2017-12-26
 ---
 
-![About me Image](https://forum.b-zone.ro/applications/core/interface/imageproxy/imageproxy.php?img=http://www.vdezignstudio.com/images/about_me.png&key=b223a70c0766f2f651fc9ff866d9494f814df7d24fb05f6fe6d202e438a75ca5)
+![About me Image](/assets/img/meetup.jpg)
 {: .image-pull-right}
 
-Hi, I am Dimos, a tech (and fitness) geek at heart, who's getting used to being called 'Software Engineer'.
+I am a technology *(and fitness)* geek at heart, born in Greece and living in London. I am currently working as a Software Engineer for R3, building the next-generation distributed ledger, **Corda** (if you haven't heard about it, you [**should check it out**](https://www.corda.net/)). Before that, I was working in Amazon for Alexa and Amazon Video. I have a big passion for clean code, distributed systems and various software engineering disciplines (see [DDD](https://en.wikipedia.org/wiki/Domain-driven_design), [FP](https://en.wikipedia.org/wiki/Functional_programming), [TDD](https://en.wikipedia.org/wiki/Test-driven_development)), but this list keeps growing alarmingly. I've also authored a course about the microservices architecture, which you can follow [here](https://www.packtpub.com/application-development/microservices-architecture-video). I like sharing knowledge and exchanging ideas in local meetups or conferences. Outside the software world, I also enjoy immensely playing football and futsal, travelling around the world and experiencing other cultures.
 
-One of the many things I like are lists. So, here's a handy list of things that I am passionate about:
-* **clean**, nicely written (and, most important, easily read) **code**
-* **learning** (and hopefully also teaching) new things from/to other people
-* **contributing** to the awesome open-source community out there
-* **distributed systems**
-* various **software engineering methodologies**, mainly: [DDD](https://en.wikipedia.org/wiki/Domain-driven_design), [FP](https://en.wikipedia.org/wiki/Functional_programming), [TDD](https://en.wikipedia.org/wiki/Test-driven_development), ...
-
-In order to avoid sounding boring as hell, here's one more list with non-software things I like doing:
-* playing **football** and (more frequently) **futsal**. Don't ask me what that is, [go find yourself..](http://lmgtfy.com/?q=futsal)
-* watching **movies**, preferably while eating pizza
-* **travelling** and seeing new things
-
-If you share any of the interests above or you just want to let me know how ugly my website is, you can ping me at [raptis.dimos@yahoo.gr](mailto:raptis.dimos@yahoo.gr).
-
-Cheerio,
-
-Dimos
+If you want to reach out, you can find me at [raptis.dimos@yahoo.gr](mailto:raptis.dimos@yahoo.gr).
