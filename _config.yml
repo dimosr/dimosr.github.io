@@ -1,6 +1,7 @@
 # Site
 title:          Dimos Raptis
 bio:            'Personal website of Dimos Raptis, including professional information, projects and blog posts'
+description:    ""
 picture:        'assets/img/profile.jpg'
 locale:         en_US
 author:         "Dimos Raptis"
