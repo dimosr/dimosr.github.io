@@ -1,5 +1,12 @@
-{% if site.disqus_shortname %}
+{% if page.disableDisqus %}
+	{% assign disqus_enabled = false %}
+{% else %}
+	{% assign disqus_enabled = true %}
+{% endif %}
+
+{% if site.disqus_shortname and disqus_enabled == true %}
   <div id="disqus_thread" class="yazi">  </div>
+
   <script>
 
   /**
