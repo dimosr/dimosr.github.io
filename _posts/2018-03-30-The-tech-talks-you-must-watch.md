@@ -42,3 +42,9 @@ _If you are a software engineer, I bet you've already heard and read a lot about
 ### [Developing Expertise: Herding Racehorses, Racing Sheep](https://www.infoq.com/presentations/Developing-Expertise-Dave-Thomas)
 
 In this one, Dave Thomas, the author of the [Agile Manifesto](http://agilemanifesto.org), expands on [the Dreyfus model of skill acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition), describing the various levels of competency, how one can transition between them and how you should treat people differently according to their level. He concludes by explaining how the model can be used to improve how companies operate and how individuals can shape their career trajectories.
+
+<br/>
+
+### [A Brief, Opinionated History of the API](https://www.youtube.com/watch?v=LzMp6uQbmns)
+
+In this talk, Joshua Bloch - one of the minds behind Java - walks you through the history of APIs, also reflecting on the current legal status, specifically around the legal case between Google and Oracle. This is a great talk for software engineers that are curious and would like to get a glimpse of how it all started and how the concepts of a function or a library were invented. It's all presented in a very insightful way. It also provides food for thought around what constitutes and API and what could the repercussions be if APIs were copyrighted.
