@@ -3,6 +3,7 @@ layout: post
 title: "Why blockchain is better than you think"
 date: 2019-04-02
 excerpt: "An explanation of what blockchain is and why it's useful"
+header-img: "assets/img/posts/dlt.png"
 tags: [software, blockchain, dlt, distributed, ledger, technology, distributed, systems]
 ---
 
