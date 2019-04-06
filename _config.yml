@@ -44,12 +44,14 @@ instagram: dimosr7
 # paginate_path: "blog/:num/"
 
 # Gems
-gems:
+plugins:
+  - github-pages
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-paginate
+  - jemoji
 
 jekyll-mentions:
     base_url: https://github.com
