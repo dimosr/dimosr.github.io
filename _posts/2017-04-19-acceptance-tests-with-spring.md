@@ -2,6 +2,7 @@
 layout: post
 title: "Acceptance tests with less code using Spring"
 date: 2017-04-19
+header-img: "assets/img/posts/acceptance-tests-a.png"
 excerpt: "How to write your acceptance tests with less code using the Spring framework"
 tags: [software, testing, tdd, bdd, acceptance, spring, dependency, injection, framework]
 ---

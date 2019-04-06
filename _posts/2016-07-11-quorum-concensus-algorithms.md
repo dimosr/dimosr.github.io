@@ -3,6 +3,7 @@ layout: post
 title: "Improving availability with Quorums"
 date: 2016-07-11
 excerpt: "How quorum concensus algorithms improve overall availability"
+header-img: "assets/img/posts/quorum-example-a.png"
 tags: [software, distributed, systems, quorum, network, partition, availability]
 ---
 One of the simplest forms of a database system is a centralised database system without replication (which is widely used in relatively low-traffic web applications nowadays) . The 2 terms used correspond to the following:

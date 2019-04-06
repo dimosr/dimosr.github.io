@@ -3,6 +3,7 @@ layout: post
 title:  "Monitorito"
 image: '../assets/img/projects/monitorito.png'
 date:   2016-10-26
+header-img: "assets/img/projects/monitorito.png"
 excerpt: "Monitorito, an application visualising your web activity"
 project: true
 tag:

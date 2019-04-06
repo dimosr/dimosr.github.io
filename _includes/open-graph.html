@@ -4,17 +4,21 @@
     {% if site.twitter %}<meta name="twitter:site" content="@{{ site.twitter }}">
     <meta name="twitter:creator" content="@{{ site.twitter }}">{% endif %}
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="{{ site.url }}/{{ site.picture }}">
+    {% if page.header-img %}
+		<meta name="twitter:image" content="{{ site.url }}/{{ page.header-img }}">
+	{% else %}
+		<meta name="twitter:image" content="{{ site.url }}/{{ site.picture }}">
+	{% endif %}
     <!-- Open Graph -->
     <meta property="og:locale" content="{{ site.locale }}">
     <meta property="og:type" content="article">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}
+    	<meta property="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% endif %}
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <meta property="og:site_name" content="{{ site.title }}">
     
-
-	<!-- Social share image -->
 	{% if page.header-img %}
 		<meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
 	{% else %}

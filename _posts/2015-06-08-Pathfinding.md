@@ -3,6 +3,7 @@ layout: post
 title:  "Pathfinding"
 image: '../assets/img/projects/pathfinding.png'
 date:   2015-06-08
+header-img: "assets/img/projects/pathfinding.png"
 excerpt: "An interactive demo/tutorial of various pathfinding algorithms"
 project: true
 tag:

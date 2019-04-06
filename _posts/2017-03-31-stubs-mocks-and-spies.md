@@ -2,6 +2,7 @@
 layout: post
 title: "One more rant about stubs, mocks and spies"
 date: 2017-03-31
+header-img: "assets/img/posts/sut.png"
 excerpt: "An analysis of the differences between stubs, mocks and spies"
 tags: [software, testing, mocks, spies, stubs]
 ---

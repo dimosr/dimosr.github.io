@@ -5,6 +5,7 @@ image: '../assets/img/projects/servicecall4j.png'
 date:   2017-09-20
 excerpt: "A Java library for RPC capabilities"
 project: true
+header-img: "assets/img/projects/servicecall4j.png"
 tag:
 - software
 - library

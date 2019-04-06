@@ -4,6 +4,7 @@ title:  "Easy Stats"
 image: '../assets/img/projects/easystats.png'
 date:   2017-01-10
 excerpt: "A mobile app for coaches that want to keep statistics of their team"
+header-img: "assets/img/projects/easystats.png"
 project: true
 tag:
 - sports
