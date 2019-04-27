@@ -48,3 +48,9 @@ In this one, Dave Thomas, the author of the [Agile Manifesto](http://agilemanife
 ### [A Brief, Opinionated History of the API](https://www.youtube.com/watch?v=LzMp6uQbmns)
 
 In this talk, Joshua Bloch - one of the minds behind Java - walks you through the history of APIs, also reflecting on the current legal status, specifically around the legal case between Google and Oracle. This is a great talk for software engineers that are curious and would like to get a glimpse of how it all started and how the concepts of a function or a library were invented. It's all presented in a very insightful way. It also provides food for thought around what constitutes and API and what could the repercussions be if APIs were copyrighted.
+
+<br/>
+
+### [How to make a sandwich](https://www.youtube.com/watch?v=P8sNSNkWFpc)
+
+In this talk, Dan North is exploring various aspects of feedback. He starts by analysing what actually feedback is and what are the different types of impact feedback can have in a system and why feedback is important. He then proceeds with explaining how to deliver feedback in terms of structure and different approaches that can be used according to your relationship with the other person. Last (but definitely not least!), he explains how to receive feedback for optimal results.
