@@ -3,7 +3,7 @@ layout: post
 title: "The pursuit of software testability"
 date: 2019-04-29
 excerpt: "Looking at different types of testing and their trade-offs"
-header-img: "assets/img/posts/test_universe.png"
+header-img: "assets/img/posts/test_universe.jpg"
 tags: [software, testing, quality, assurance, mocking, unit, integration]
 ---
 
