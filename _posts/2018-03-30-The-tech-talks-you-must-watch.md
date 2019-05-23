@@ -41,16 +41,29 @@ _If you are a software engineer, I bet you've already heard and read a lot about
 
 ### [Developing Expertise: Herding Racehorses, Racing Sheep](https://www.infoq.com/presentations/Developing-Expertise-Dave-Thomas)
 
-In this one, Dave Thomas, the author of the [Agile Manifesto](http://agilemanifesto.org), expands on [the Dreyfus model of skill acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition), describing the various levels of competency, how one can transition between them and how you should treat people differently according to their level. He concludes by explaining how the model can be used to improve how companies operate and how individuals can shape their career trajectories.
+_In this one, Dave Thomas, the author of the [Agile Manifesto](http://agilemanifesto.org), expands on [the Dreyfus model of skill acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition), describing the various levels of competency, how one can transition between them and how you should treat people differently according to their level. He concludes by explaining how the model can be used to improve how companies operate and how individuals can shape their career trajectories._
 
 <br/>
 
 ### [A Brief, Opinionated History of the API](https://www.youtube.com/watch?v=LzMp6uQbmns)
 
-In this talk, Joshua Bloch - one of the minds behind Java - walks you through the history of APIs, also reflecting on the current legal status, specifically around the legal case between Google and Oracle. This is a great talk for software engineers that are curious and would like to get a glimpse of how it all started and how the concepts of a function or a library were invented. It's all presented in a very insightful way. It also provides food for thought around what constitutes and API and what could the repercussions be if APIs were copyrighted.
+_In this talk, Joshua Bloch - one of the minds behind Java - walks you through the history of APIs, also reflecting on the current legal status, specifically around the legal case between Google and Oracle. This is a great talk for software engineers that are curious and would like to get a glimpse of how it all started and how the concepts of a function or a library were invented. It's all presented in a very insightful way. It also provides food for thought around what constitutes and API and what could the repercussions be if APIs were copyrighted._
 
 <br/>
 
 ### [How to make a sandwich](https://www.youtube.com/watch?v=P8sNSNkWFpc)
 
-In this talk, Dan North is exploring various aspects of feedback. He starts by analysing what actually feedback is and what are the different types of impact feedback can have in a system and why feedback is important. He then proceeds with explaining how to deliver feedback in terms of structure and different approaches that can be used according to your relationship with the other person. Last (but definitely not least!), he explains how to receive feedback for optimal results.
+_In this talk, Dan North is exploring various aspects of feedback. He starts by analysing what actually feedback is and what are the different types of impact feedback can have in a system and why feedback is important. He then proceeds with explaining how to deliver feedback in terms of structure and different approaches that can be used according to your relationship with the other person. Last (but definitely not least!), he explains how to receive feedback for optimal results._
+
+<br/>
+
+### [A Case For Outside-In Design](https://www.youtube.com/watch?v=rbSDGr-_UwY)
+
+_Sandro Mancuso is the founder of the London Software Craftmanship Community. In this talk, he makes a comparison between 2 methodologies for software development: inside-out and outside-in development. He explains what are some of the reasons people prefer doing inside-out development, demonstrating why it can have adverse effects. Building on the concept of early feedback and minimum viable products, he explains why outside-in development can help us deliver value incrementally, faster and with less risk. Note that he has also written an article for this [here](https://codurance.com/2017/10/23/outside-in-design), but the article is slightly more concise and focuses more on the software development aspect, while his talk captures the whole lifecycle, covering the business aspect too._
+
+<br/>
+
+### [A New Way to look at Networking](https://www.youtube.com/watch?v=gqGEMQveoqg)
+
+_Van Jacobson is renowned for his work on TCP/IP network performance and scaling. He is said to have saved the Internet from collapsing in the late 1980s and early 1990s. In this talk, he walks through the history of telecommunications re-visiting constraints and design decisions from the first telephones to ARPAnet and Internet. He eventually builds the case for a new network archiecture, called Named Data Networking (NDN). This video is full of insights around how communications work and historical tidbits (for those of you that love them!)._
+

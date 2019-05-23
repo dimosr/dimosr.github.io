@@ -26,7 +26,6 @@ sass:
 # if you don't have any of social below, comment the line.
 email: raptis.dimos@yahoo.gr
 twitter: dimosr7
-facebook: dimos.raptis
 google:
   #plus: #username
   analytics: UA-58054781-1
@@ -36,7 +35,6 @@ google:
 github: dimosr
 stackoverflow: 3531794/dimos
 linkedin: dimosraptis
-instagram: dimosr7
 
 # Paginate
 # if you don't need pagination, comment the *paginate* configs below
