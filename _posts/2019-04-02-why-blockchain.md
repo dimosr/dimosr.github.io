@@ -70,3 +70,6 @@ If you want to see how Corda aspires to make this vision possible, you should ha
 <br/>
 
 Also, if the concepts in this blog sounded interesting and you want to learn more, the [key concepts of Corda](https://docs.corda.net/key-concepts.html) is a great place to start. If you are one of those people that get fascinated by the history of computers, then I would highly recommend you read the original [Bitcoin paper](https://bitcoin.org/bitcoin.pdf), which is essentially where all of this thinking was born. Furthermore, the payment examples I provided are massively oversimplified, but if you are interested in learning how payment systems actually work, I would highly recommend [Richard's blogpost](https://gendal.me/2013/11/24/a-simple-explanation-of-how-money-moves-around-the-banking-system/), which explains everything with great clarity, as always.
+
+**[Update - 05/06/2019]** Mike and Carolyne - 2 colleagues from R3 - recently gave a well-rounded talk at the QCon conference 2019, which touches on many areas from why blockchain is useful to how Corda differs from other blockchains and a lot more. Check it out [here](https://qconlondon.com/london2019/presentation/corda-looking-forward-and-back-blockchain-jvm-stack).
+

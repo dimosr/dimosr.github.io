@@ -2,7 +2,7 @@
 layout: post
 title:  "Supply chain CorDapp"
 image: '../assets/img/projects/corda-logo.png'
-date:   2017-09-20
+date:   2019-05-31
 excerpt: "A CorDapp demo for supply chain"
 project: true
 header-img: "assets/img/projects/corda-logo.png"
