@@ -884,3 +884,12 @@ ul.menu {
 		margin-top: $top-margin-mobile;
 	}
 }
+
+.image-wrapper {
+    text-align: center;
+
+    .image-caption {
+        color: grey;
+        font-style: italic;
+    }
+}
