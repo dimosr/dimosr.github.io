@@ -98,6 +98,8 @@ There's another approach to this problem, called **consumer-driven contract test
 
 **[Update - 13/11/2018]** Almost a year after this post was published, I was invited to give a talk about the methodology presented here in the microservices meetup in London. So, if you prefer the audiovisual version, you can find this talk [here](https://skillsmatter.com/skillscasts/12275-acceptance-testing-in-the-microservices-world).
 
+**[Update - 21/07/2019]** I finally managed to get some time to create a code prototype of what is described in this post. You can find it [here](https://github.com/dimosr/acceptance-testing-demo).
+
 ## References
 
 [[1](https://martinfowler.com/articles/microservice-testing/)] "Testing Strategies in a Microservices Architecture", Martin Fowler
