@@ -101,9 +101,9 @@ Recently, people started discussing about a new category of tests, called **cons
 
 As a result, acceptance tests should be combined with the appropriate suite of contract tests. This combination can achieve good behaviour coverage, while also keeping tests more focused on a single thing and less flaky. For a more elaborate discussion on this pattern and the usage of contract tests, a very good reference is [this article](https://martinfowler.com/articles/practical-test-pyramid.html).
 
-**[Update - 13/11/2018]** Almost a year after this post was published, I was invited to give a talk about the methodology presented here in the microservices meetup in London. So, if you prefer the audiovisual version, you can find this talk [here](https://skillsmatter.com/skillscasts/12275-acceptance-testing-in-the-microservices-world).
-
 **[Update - 21/07/2019]** I finally managed to get some time to create a code prototype of what is described in this post. You can find it [here](https://github.com/dimosr/acceptance-testing-demo).
+
+**[Update - 13/11/2018]** I was also invited to give a talk about the methodology presented here in the London Java Community. So, if you prefer the audiovisual version, you can find this talk [here](https://skillsmatter.com/skillscasts/14037-london-java-community-june).
 
 ## References
 
