@@ -41,6 +41,15 @@ Of course, most of these mechanisms are not really new ideas and they originate 
 
 Last but not least, to give credit where it's due, Chris Richardson has been writing about this pattern for a while and he also explains the ideas nicely in [this talk](https://www.youtube.com/watch?v=7dy5WPSv2DQ).
 
+<br/>
+
+-------------------------------------------------------
+
+<br/>
+
+**Shameless plug** :loudspeaker: : If you liked this blogpost, I've also written a book about distributed systems that you can find [here](https://leanpub.com/distributed-systems-for-practitioners).
+
+
 ### References
 
 [[1](https://www.cs.cornell.edu/andru/cs711/2002fa/reading/sagas.pdf)] "Sagas", Hector Garcia Molina & Keneth Salem, Princeton University, 1987
