@@ -2,7 +2,7 @@
 layout: post
 title: "Dark patterns & software ethics"
 date: 2019-09-28
-excerpt: "Dark UI patterns & Software ethics"
+excerpt: "Dark patterns & Software ethics"
 header-img: "assets/img/posts/linkedin_page_1.png"
 tags: [software, ethics, dark, patterns, user, interface]
 ---
