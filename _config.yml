@@ -27,6 +27,8 @@ sass:
 email: raptis.dimos@yahoo.gr
 twitter: dimosr7
 google:
+  tag_manager:
+    container_id: GTM-MGL3WVR
   #plus: #username
   analytics: UA-58054781-1
   #verify:

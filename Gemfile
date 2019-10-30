@@ -8,3 +8,6 @@ gem 'jekyll-feed'
 gem 'jekyll-sitemap'
 gem 'jekyll-gist'
 gem 'jemoji'
+group :jekyll_plugins do
+  gem 'jekyll-google-tag-manager'
+end
