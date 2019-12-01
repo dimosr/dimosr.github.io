@@ -7,7 +7,7 @@ tags: [tech, talks, videos, personal, development, software]
 ---
 This post is part of the ["Things you MUST do (if you haven't yet)" series]({{ site.baseurl }}{% post_url 2018-03-25-The-things-you-must-do %}), covering tech talks. If you want to read a bit more of my rumbling on why I started doing this, feel free to read the original post, linked above.
 
-Below, you will find a personal compilation of the best tech talks I've watched so far and I'd recommend to anyone looking to expand his field of knowledge. Note that I've put effort in excluding mediocre videos from this list to make sure this list can be as valuable as possible. The main criteria I've used are the following:
+Below, you will find a personal compilation of the best tech talks I've watched so far and I'd recommend to anyone looking to expand his field of knowledge. I made a conscious effort to keep this list as valuable as possible to readers by only including talks that were truly insightful for me, instead of putting here every video I just enjoyed. Some of the criteria I've used for the selection are the following:
 * the ideas presented on the talks are timeless.
 * the knowledge is as generic and technology-unaware as possible, so that people from all technical fields and backgrounds can benefit.
 * the talks contained breakthrough ideas or made me see things from a new perspective. Of course, this can't be done without bias, since the more talks I watch, the harder it is for a new talk to satisfy this check.
@@ -65,5 +65,10 @@ _Sandro Mancuso is the founder of the London Software Craftmanship Community. In
 
 ### [A New Way to look at Networking](https://www.youtube.com/watch?v=gqGEMQveoqg)
 
-_Van Jacobson is renowned for his work on TCP/IP network performance and scaling. He is said to have saved the Internet from collapsing in the late 1980s and early 1990s. In this talk, he walks through the history of telecommunications re-visiting constraints and design decisions from the first telephones to ARPAnet and Internet. He eventually builds the case for a new network archiecture, called Named Data Networking (NDN). This video is full of insights around how communications work and historical tidbits (for those of you that love them!)._
+_Van Jacobson is renowned for his work on TCP/IP network performance and scaling. He is said to have saved the Internet from collapsing in the late 1980s and early 1990s. In this talk, he walks through the history of telecommunications re-visiting constraints and design decisions from the first telephones to ARPAnet and Internet. He eventually builds the case for a new network architecture, called Named Data Networking (NDN). This video is full of insights around how communications work and historical tidbits (for those of you that love them!)._
 
+<br/>
+
+### [The Functional Programmer's Toolkit](https://www.youtube.com/watch?v=Nrp_LZ-XGsY)
+
+_Are you a software developer and not very familiar with functional programming? Do you feel mystified every time you hear the word **monad**? Then, this talk might be for you. Scott Wlaschin gives a very practical introduction to some concepts of functional programming, such as monoid, monad and functors. He explains what are the main properties of each one of these concepts and the associated benefits. He also provides some code examples in order to demonstrate how code can benefit from use of functional constructs._
