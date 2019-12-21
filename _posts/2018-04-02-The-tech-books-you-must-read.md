@@ -2,7 +2,7 @@
 layout: post
 title: "The tech books you MUST read (if you haven't yet)"
 date: 2018-04-01
-excerpt: "If you haven't read these tech books yet, I feel sorry for you."
+excerpt: "A collection of tech books I believe you must watch, if you haven't yet"
 tags: [tech, books, personal, development, software]
 ---
 

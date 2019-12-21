@@ -2,7 +2,7 @@
 layout: post
 title: "The case of determinism in software development"
 date: 2019-11-16
-excerpt: "The case of determinism in software development"
+excerpt: "Discussing why determinism can be useful in software development and various techniques that leverage determinism"
 header-img: "assets/img/posts/pattern_tiles.jpg"
 tags: [software, systems, design, determinism]
 ---

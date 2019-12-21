@@ -2,7 +2,7 @@
 layout: post
 title: "Is it really the end of agile?"
 date: 2019-09-11
-excerpt: "Is it really the end of agile?"
+excerpt: "A discussion about agile, the arguments against it and what it has to offer"
 header-img: "assets/img/posts/agile.jpeg"
 tags: [software, development, agile, craftmanship, lean]
 ---

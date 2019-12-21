@@ -2,7 +2,7 @@
 layout: post
 title: "The tech talks you MUST watch (if you haven't yet)"
 date: 2018-03-30
-excerpt: "If you haven't watched these tech talks yet, I feel sorry for you."
+excerpt: "A collection of tech talks I believe you must watch, if you haven't yet"
 tags: [tech, talks, videos, personal, development, software]
 ---
 This post is part of the ["Things you MUST do (if you haven't yet)" series]({{ site.baseurl }}{% post_url 2018-03-25-The-things-you-must-do %}), covering tech talks. If you want to read a bit more of my rumbling on why I started doing this, feel free to read the original post, linked above.

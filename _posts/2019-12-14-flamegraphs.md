@@ -2,7 +2,7 @@
 layout: post
 title: "Flamegraph: the software engineer's chart"
 date: 2019-12-14
-excerpt: "Flamegraph: the software engineer's chart"
+excerpt: "An introduction to the flamegraph chart, how it can be used and why it can be extremely useful to a software engineer"
 header-img: "../assets/img/posts/flamegraph.png"
 tags: [software, distributed, systems, monitoring, performance, analysis, profiling]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "The things you MUST do (if you haven't yet)"
 date: 2018-03-25
-excerpt: "If you haven't done these things yet, I feel sorry for you."
+excerpt: "A collection of things I believe you must do, if you haven't yet"
 tags: [lifestyle, development, life, suggestions]
 ---
 

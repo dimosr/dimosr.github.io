@@ -2,7 +2,7 @@
 layout: post
 title: "Saga Transactions: what's old is new again"
 date: 2019-08-27
-excerpt: "Saga Transactions: what's old is new again"
+excerpt: "An overview of the concept of saga transactions and its applications"
 header-img: "assets/img/posts/sagas.png"
 tags: [software, architecture, design, microservices, transactions, sagas, coupling, isolation, scalability]
 ---
