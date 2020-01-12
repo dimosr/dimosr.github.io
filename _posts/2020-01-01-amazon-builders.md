@@ -3,7 +3,7 @@ layout: post
 title: "Learning from Amazon Builders"
 date: 2020-01-10
 excerpt: "A review of the Amazon builders library that contains a summary of the parts I liked most"
-header-img: "../assets/img/posts/builders_cover.jpg"
+header-img: "assets/img/posts/builders_cover.jpg"
 tags: [software, distributed, systems, amazon, aws, practices, architecture, design]
 ---
 
