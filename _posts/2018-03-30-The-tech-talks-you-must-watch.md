@@ -72,3 +72,9 @@ _Van Jacobson is renowned for his work on TCP/IP network performance and scaling
 ### [The Functional Programmer's Toolkit](https://www.youtube.com/watch?v=Nrp_LZ-XGsY)
 
 _Are you a software developer and not very familiar with functional programming? Do you feel mystified every time you hear the word **monad**? Then, this talk might be for you. Scott Wlaschin gives a very practical introduction to some concepts of functional programming, such as monoid, monad and functors. He explains what are the main properties of each one of these concepts and the associated benefits. He also provides some code examples in order to demonstrate how code can benefit from use of functional constructs._
+
+<br/>
+
+### [Look at Your Data](https://www.youtube.com/watch?v=coNDCIMH8bk)
+
+_In this presentation, John Rauser explains why aggregated metrics might lead you to lose part of the picture and why looking at the distribution or even raw data can provide extremely useful insight. He provides some real examples to drive the point home and a real example from his work at Amazon. What is interesting about this talk is that it's only 10 minutes, but it's informationally very dense. If you like it, I would also recomment watching [this](https://www.youtube.com/watch?v=-3dw09N5_Aw) and [this](https://www.youtube.com/watch?v=fSgEeI2Xpdc) talk as well, which were also given by John and they are somewhat building on top of this one (I know that's cheating, since I was supposed to only recommend one talk!)._
