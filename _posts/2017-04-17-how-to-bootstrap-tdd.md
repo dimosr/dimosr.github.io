@@ -3,8 +3,12 @@ layout: post
 title: "How to bootstrap TDD in your team"
 date: 2017-04-17
 excerpt: "A way to introduce gradually TDD in the workflow of your team"
+header-img: "assets/img/posts/tdd_code.jpg"
 tags: [software, testing, tdd, test, driven, development]
 ---
+
+![Blog post introductory image](../assets/img/posts/tdd_code.jpg "Photo by Kevin Ku from Pexels")
+
 Test-Driven Development (aka TDD) is currently one of the biggest buzzwords in the software industry. As a result, there are many misunderstandings around it. I am myself a "buzzword" person, so I remember experimenting with TDD some years ago, having so many questions. Having seen how TDD is claimed to be (but not has not actually been) embraced across the industry, I decided to write this post to provide a pragmatic approach on how teams can gradually embrace TDD.
 
 The biggest myth around TDD (especially adopted by people new to the field) is that "**TDD is hard and it requires advanced cognitive skills**". This myth is busted if one looks into the root rationale behind TDD, which is to **empower developers so that they can develop software faster, more easily and with less bugs**. People think that in order to apply TDD, one has to be so clever as to be able to know in advance everything he/she needs to implement, write all the tests in advance and then proceed with the actual code. No! If anything, TDD's efficacy is based on small software development steps coupled with small feedback loops, helping the developer staying focused on a very specific piece of functionality <sup>[1]</sup>. If you think about it, TDD aims to make software development as dumb a process as possible! The size of these steps (and the corresponding feedback loops) is selected by each developer depending on his/her experience and comfort. However, having said that, TDD still requires a different mindset, which differs a lot from the common "test-last" (or worse "no-test") software development process. This means that it's difficult for a team to switch to TDD instantaneously. I have also experienced its steep learning curve in the past, so I will provide some interim stages that can be used from software development teams with the final aim to fully embrace TDD. These stages can help the team familiarise with the process and feel at ease, while also realising first hand its benefits. 

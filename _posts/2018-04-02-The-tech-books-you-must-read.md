@@ -3,8 +3,11 @@ layout: post
 title: "The tech books you MUST read (if you haven't yet)"
 date: 2018-04-01
 excerpt: "A collection of tech books I believe you must watch, if you haven't yet"
+header-img: "assets/img/posts/book_shelf.jpg"
 tags: [tech, books, personal, development, software]
 ---
+
+![Blog post introductory image](../assets/img/posts/book_shelf.jpg "Photo by Engin Akyurt from Pexels")
 
 This post is part of the ["Things you MUST do (if you haven't yet)" series]({{ site.baseurl }}{% post_url 2018-03-25-The-things-you-must-do %}), covering books about technology and software. If you want to read a bit more of my rumbling on why I started doing this, feel free to read the original post, linked above.
 

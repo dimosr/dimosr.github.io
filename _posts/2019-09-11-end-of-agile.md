@@ -3,9 +3,11 @@ layout: post
 title: "Is it really the end of agile?"
 date: 2019-09-11
 excerpt: "A discussion about agile, the arguments against it and what it has to offer"
-header-img: "assets/img/posts/agile.jpeg"
+header-img: "assets/img/posts/agile.jpg"
 tags: [software, development, agile, craftmanship, lean]
 ---
+
+![Blog post introductory image](../assets/img/posts/agile.jpg "Photo by Min An from Pexels")
 
 Recently, Forbes posted an article titled [*"The End of Agile"*](https://www.forbes.com/sites/cognitiveworld/2019/08/23/the-end-of-agile). Of course, this article caused the expected tweetstorms with people arguing whether agile has already died or if it's on its last legs. Interestingly enough, a colleague shared the article in our internal chat and a very lively conversation followed, which led me to do some more thinking during the days that followed. Finally, I got to go on vacations for 10 days. Of course, as a software developer that respects oneself, my first action item for my holidays was sit down and write a blog post on these thoughts. But, I also had to sugarcoat it with a clickbait title first. Judging from your click-through, I didn't do too badly!
 

@@ -4,8 +4,12 @@ title: "Acceptance tests with less code using Spring"
 date: 2017-04-19
 header-img: "assets/img/posts/acceptance-tests-a.png"
 excerpt: "How to write your acceptance tests with less code using the Spring framework"
+header-img: "assets/img/posts/spring_code.jpg"
 tags: [software, testing, tdd, bdd, acceptance, spring, dependency, injection, framework]
 ---
+
+![Blog post introductory image](../assets/img/posts/spring_code.jpg "Photo by Negative Space from Pexels")
+
 In this post, I will try to showcase how Dependency Injection can be used to help you write acceptance tests for your software system, while avoiding writing boilerplate, plumbing code to wire sub-components with each other. For the sake of clarity, I will use Spring for demonstration, but the approach described here can be easily applied with any DI framework (such as Guice). Before proceeding, I want to first clarify what I mean by acceptance tests to prevent misunderstandings, since this concept is slightly controversial between individuals. We will first have to agree though that every single software environment can be viewed as a collection of software systems  communicating with each other across the network. Meanwhile, each one of those software systems is composed of sub-components. In a more detailed view, these sub-components are themselves composed of other sub-components, which end up being composed of simple classes.
 
 Now, unit testing is used to ensure that each single class functions as expected. On the other hand, integration testing is used to ensure that the communication between the various software systems is successful. As a result, unit testing exercises each component/class isolated from everything else, thus not crossing network boundaries. In contrast, integration tests cross network boundaries, since their purpose is to test this network communication. Between these 2 different types of testing, there is still a need that is left uncovered. It would be useful to have a way to test the functionality of a software system as a whole, while not calling any dependent systems in real life, but instead calling fake instances that have been instrumented by the test - in the same way it's done for unit testing. This is what I will refer to as **acceptance tests** in this post. What benefits would this new category bring ?
