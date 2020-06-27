@@ -39,3 +39,5 @@ So, when I see examples like that I feel obliged to share them publicly so that:
 
 * companies stop following these practices and focus on serving real customer needs instead.
 * software developers start realising the impact their work can have and make a conscious effort for this impact to be positive.
+
+**[Update - 27/06/2020]** I came across [this](https://queue.acm.org/detail.cfm?id=3400901) very interesting article from ACM Queue, called "Dark Patterns: Past, Present, and Future". It touches on the history behind dark patterns, how they evolved through time, the nuances in terms of ethics and law, approaches to uncover dark patterns that might have been introduced inadvertently as part of an optimisation process and concluding with a discussion on self-regulation and law enforcement. If you are interested in the topic, I would highly recommend it.
