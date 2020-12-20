@@ -9,7 +9,7 @@ tags: [tech, books, personal, development, software]
 
 ![Blog post introductory image](../assets/img/posts/book_shelf.jpg "Photo by Engin Akyurt from Pexels")
 
-This post is part of the ["Things you MUST do (if you haven't yet)" series]({{ site.baseurl }}{% post_url 2018-03-25-The-things-you-must-do %}), covering books about technology and software. If you want to read a bit more of my rumbling on why I started doing this, feel free to read the original post, linked above.
+This post is part of the ["Things you MUST do (if you haven't yet)" series]({{ site.baseurl }}{% post_url 2018-03-25-The-things-you-must-do %}), covering books about technology and software. If you want to read a bit more of my rambling on why I started doing this, feel free to read the original post, linked above.
 
 This post contains some of the best tech books I've read so far. Every suggestion comes with a brief summary of what I gained from each book and why I think it's worth investing the time to read it. Similar to all the posts belonging in this series, keep in mind this is a (constant) work-in-progress, so entries might be added without further notice.
 
@@ -48,3 +48,11 @@ _If you work in the software industry, most likely you will already have heard o
 ![JCIP cover image](../assets/img/posts/book_covers/jcip.jpg){:class="img-pair-left"}
 
 _If you are a software developer working in Java, this is one of the books that you must definitely read, especially if you are working on concurrent, multi-threaded systems. The authors of this book have made extremely valuable contributions to the Java programming language and this book gives you the chance to hear them explain what they built! The book starts from fundamental concepts, such as Java's memory model, and then gradually proceeds to higher-level tools, such as concurrent data structures and patterns. Depending on your experience, this book might make you realise some things that you would never imagine or you would have to discover yourself the hard way. Personally, I've read it twice, one in the early days of my programming journey and one after having worked extensively with concurrent systems, it was equally valuable both times. Highly recommended for any Java developer that wants to write efficient and robust software systems._
+
+<br/>
+
+### The Manager's Path: A Guide for Tech Leaders navigating growth and change
+
+![The Manager's Path cover image](../assets/img/posts/book_covers/managers_path.jpg){:class="img-pair-left"}
+
+_As the title implies, this book covers the various stages of the software engineering career ladder. As a result, it can be useful to people of different backgrounds and roles. The chapter dedicates a separate chapter for every role starting from the bottom and working its way up, which can mean it can be beneficial in many different ways. If you are a relatively junior or mid-level software engineer, it can give you an idea of the responsibilities of roles you can evolve into later in your career. This can also make you more efficient in your day-to-day work by knowing what are common challenges the people you report to face and how you can help them and the overall organisation in general. I read this book cover to cover and it took me a few weeks, since it is relatively light reading. However, you can also read it piecemeal as you go through different phases of your career, since it can give you a quick overview of the challenges and some tips for a new role you might be embarking into._

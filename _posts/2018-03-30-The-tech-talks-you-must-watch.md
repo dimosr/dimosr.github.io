@@ -3,14 +3,18 @@ layout: post
 title: "The tech talks you MUST watch (if you haven't yet)"
 date: 2018-03-30
 excerpt: "A collection of tech talks I believe you must watch, if you haven't yet"
+header-img: "assets/img/posts/audience.jpg"
 tags: [tech, talks, videos, personal, development, software]
 ---
-This post is part of the ["Things you MUST do (if you haven't yet)" series]({{ site.baseurl }}{% post_url 2018-03-25-The-things-you-must-do %}), covering tech talks. If you want to read a bit more of my rumbling on why I started doing this, feel free to read the original post, linked above.
+
+![Blog post introductory image](../assets/img/posts/audience.jpg "Photo by Luis Quintero from Pexels")
+
+This post is part of the ["Things you MUST do (if you haven't yet)" series]({{ site.baseurl }}{% post_url 2018-03-25-The-things-you-must-do %}), covering technical talks[^technical_talk]. If you want to read a bit more of my rambling on why I started doing this, feel free to read the original post, linked above.
 
 Below, you will find a personal compilation of the best tech talks I've watched so far and I'd recommend to anyone looking to expand his field of knowledge. I made a conscious effort to keep this list as valuable as possible to readers by only including talks that were truly insightful for me, instead of putting here every video I just enjoyed. Some of the criteria I've used for the selection are the following:
-* the ideas presented on the talks are timeless.
-* the knowledge is as generic and technology-unaware as possible, so that people from all technical fields and backgrounds can benefit.
-* the talks contained breakthrough ideas or made me see things from a new perspective. Of course, this can't be done without bias, since the more talks I watch, the harder it is for a new talk to satisfy this check.
+* The ideas presented on the talks are timeless.
+* The knowledge is as generic and technology-unaware as possible, so that people from all technical fields and backgrounds can benefit.
+* The talks contained breakthrough ideas or made me see things from a new perspective. Of course, this can't be done without bias, since the more talks I watch, the harder it is for a new talk to satisfy this condition.
 * Last but not least (and this is a hard one!), ideally it should be a talk I'd be willing to invest some time in watching again. 
 
 Enough chit-chat, time for some action. Oh, and one last thing, this post is clearly a work in progress, so feel free to bookmark it and come back for more talks!
@@ -78,3 +82,17 @@ _Are you a software developer and not very familiar with functional programming?
 ### [Look at Your Data](https://www.youtube.com/watch?v=coNDCIMH8bk)
 
 _In this presentation, John Rauser explains why aggregated metrics might lead you to lose part of the picture and why looking at the distribution or even raw data can provide extremely useful insight. He provides some real examples to drive the point home and a real example from his work at Amazon. What is interesting about this talk is that it's only 10 minutes, but it's informationally very dense. If you like it, I would also recomment watching [this](https://www.youtube.com/watch?v=-3dw09N5_Aw) and [this](https://www.youtube.com/watch?v=fSgEeI2Xpdc) talk as well, which were also given by John and they are somewhat building on top of this one (I know that's cheating, since I was supposed to only recommend one talk!)._
+
+<br/>
+
+### [How to avoid death by PowerPoint](https://www.youtube.com/watch?v=Iwpi1Lm6dFo)
+
+_The stereotypical software engineer is pictured as a human being stuck in front of a screen churning out code incessantly without any interraction with the surrounding environment. Unfortunately, there are many software engineers out there that embrace this under the belief that writing software is what provides value and anything else is a waste of time. This couldn't be more misguided. Communication is crucial to the software development process, whether that is to distill requirements for what the software should do in the first place, educating users on how to use the software or convincing people about the value of a software project. Making an efficient presentation is crucial to achieving these goals. In this presentation that is only 20 minutes long, David Phillips describes very concisely why presentations can be very painful and gives some basic principles to make them as painless for the audience as possible._
+
+<br/>
+
+-------------------------------------------------------
+
+<br/>
+
+[^technical_talk]: You might be sitting there now wondering: "but, how do you really define a technical talk?". As diplomatic as that might sound, I will not make an attempt to give a strict definition of the term here, but I will try to at least explain how I view it. In the context of this list, I consider a talk technical if it can help me in any way improve the process of developing software. Of course, this can potentially include many different things, like how I personally develop software, how I help other people develop software or even how I can help other people that help other people develop software (I know I am getting to _meta_ now, so I'll stop).
