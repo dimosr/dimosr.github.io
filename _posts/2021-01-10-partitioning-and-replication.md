@@ -71,7 +71,7 @@ Finally, there are many systems that employ both replication and partitioning. I
 
 ![Hybrid partitioning-replication diagram](../assets/img/posts/partitioning_replication.png)
 
-:books: By the way, if you liked this post you might also enjoy my book [**Distributed Systems for practitioners**](https://leanpub.com/distributed-systems-for-practitioners).
+:books: By the way, if you liked this post you might also enjoy my book [**Distributed Systems for practitioners**](https://distsysbook.co.uk).
 
 <br/>
 

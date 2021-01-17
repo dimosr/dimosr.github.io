@@ -32,7 +32,7 @@ Another practical aspect one needs to consider when applying this pattern is how
 
 Hopefully, this post helped you understand what is possible and what is not in terms of exactly-once semantics and it made you appreciate some of the practical complexities involved in providing exactly-once semantics and how you can navigate them.
 
-If you enjoyed it and you are interested in distributed systems, you might also enjoy reading my book, [_Distributed systems for practitioners_](https://leanpub.com/distributed-systems-for-practitioners).
+If you enjoyed it and you are interested in distributed systems, you might also enjoy reading my book, [_Distributed systems for practitioners_](https://distsysbook.co.uk).
 
 <br/>
 

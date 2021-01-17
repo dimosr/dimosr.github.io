@@ -62,7 +62,7 @@ We have now seen the major benefits of shared-nothing architectures and some con
 
 Of course, all of the systems described previously have their own peculiarities and subtleties, which make it somewhat pointless to try and shoehorn them into a single pattern. But, I still believe that thinking in terms of this abstract pattern and the trade-offs of reducing sharing and coordination can be very useful.
 
-:loudspeaker: **Shameless plug** : If you liked this blogpost, I've also written a book about distributed systems that you can find [here](https://leanpub.com/distributed-systems-for-practitioners).
+:loudspeaker: **Shameless plug** : If you liked this blogpost, I've also written a book about distributed systems that you can find [here](https://distsysbook.co.uk).
 
 <br/>
 

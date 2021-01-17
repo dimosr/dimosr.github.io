@@ -47,7 +47,7 @@ Last but not least, to give credit where it's due, Chris Richardson has been wri
 
 <br/>
 
-**Shameless plug** :loudspeaker: : If you liked this blogpost, I've also written a book about distributed systems that you can find [here](https://leanpub.com/distributed-systems-for-practitioners).
+**Shameless plug** :loudspeaker: : If you liked this blogpost, I've also written a book about distributed systems that you can find [here](https://distsysbook.co.uk).
 
 
 ### References
