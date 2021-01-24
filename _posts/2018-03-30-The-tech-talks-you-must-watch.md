@@ -91,6 +91,12 @@ _The stereotypical software engineer is pictured as a human being stuck in front
 
 <br/>
 
+### [3X Explore/Expand/Extract](https://www.youtube.com/watch?v=YGhS8VQpS6s)
+
+_This is a tech talk where Kent Beck introduces the model of 3X, which defines the 3 main phases of the evolution of a software product. This model can be useful to people in various disciplines and software engineering is one of those, since how you design, build and operate software can potentially differ depending on the phase you are on. I have written [a blog post]({{ site.baseurl }}{% post_url 2021-01-24-thinking-in-3x %}) that summarises the concept, so instead of re-iterating everything here I will just refer you to it. However, apart from the 3X model this tech talk also contains those rare funny bits of Kent that I have to admit I enjoy very much._
+
+<br/>
+
 -------------------------------------------------------
 
 <br/>
