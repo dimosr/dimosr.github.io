@@ -109,6 +109,8 @@ As a result, acceptance tests should be combined with the appropriate suite of c
 
 **[Update - 13/11/2018]** I was also invited to give a talk about the methodology presented here in the London Java Community. So, if you prefer the audiovisual version, you can find this talk [here](https://skillsmatter.com/skillscasts/14037-london-java-community-june).
 
+**[Update - 27/01/2021]** I have lately realised that the term "integration test" is used in many different ways across the industry, which is not helpful. As I explained in the post, I define it as a test that exercises the integration between two components over the network, but people sometimes don't include the network as part of the definition. This means that for these people testing two classes that interact directly in memory could also be considered an integration test. I prefer to make this distinction, because this difference can have important consequences (e.g. speed & reliability of tests).
+
 ## References
 
 [[1](https://martinfowler.com/articles/microservice-testing/)] "Testing Strategies in a Microservices Architecture", Martin Fowler
