@@ -97,6 +97,12 @@ _This is a tech talk where Kent Beck introduces the model of 3X, which defines t
 
 <br/>
 
+### [Architecture All Access: Modern CPU Architecture](https://www.youtube.com/watch?v=vgPFzblBh7w)
+
+_This is not a single talk, but a series. You can watch part 1 [here](https://www.youtube.com/watch?v=vgPFzblBh7w) and part 2 [here](https://www.youtube.com/watch?v=o_WXTRS2qTY). It is a set of videos created by Intel that present the inner workings of a CPU. Nowadays, software is typically developed using many different layers of abstractions, which means many developers rarely care about how the code is really executed by the underlying hardware. However, having a good understanding of how hardware works can be really useful when developing software. These videos do a great job of explaining this in very simple terms, which makes the subject accessible even to people without any Computer Science background. I recently watched these videos 10 years after my undergraduate degree, which contained many courses focused on the architecture of a computer, and I still learned a few things I didn't know._
+
+<br/>
+
 -------------------------------------------------------
 
 <br/>
