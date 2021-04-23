@@ -4,7 +4,7 @@ title: "Running an Apache Kafka cluster easily using Docker"
 date: 2021-04-20
 excerpt: "How to run an Apache Kafla cluster easily using Docker"
 header-img: "assets/img/posts/docker_kafka_post_image.jpg"
-tags: [software, development, testing, kafka, docker, containers. automation]
+tags: [software, development, testing, kafka, docker, containers, automation]
 ---
   
 ![Blog post introductory image](../assets/img/posts/docker_kafka_post_image.jpg "Photo by frank mckenna on Unsplash")
