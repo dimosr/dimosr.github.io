@@ -4,7 +4,7 @@ title: "A quick introduction to Apache Kafka"
 date: 2021-04-23
 excerpt: "A brief introduction to Apache Kafka with all the things you need to know before using it"
 header-img: "assets/img/posts/kafka_logo.png"
-tags: [software, development, testing, kafka, docker, containers. automation]
+tags: [kafka, introduction, design, software, distributed, event, log]
 ---
   
 ![Blog post introductory image](../assets/img/posts/kafka_logo.png)
