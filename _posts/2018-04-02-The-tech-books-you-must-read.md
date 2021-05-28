@@ -56,3 +56,37 @@ _If you are a software developer working in Java, this is one of the books that 
 ![The Manager's Path cover image](../assets/img/posts/book_covers/managers_path.jpg){:class="img-pair-left"}
 
 _As the title implies, this book covers the various stages of the software engineering career ladder. As a result, it can be useful to people of different backgrounds and roles. The chapter dedicates a separate chapter for every role starting from the bottom and working its way up, which can mean it can be beneficial in many different ways. If you are a relatively junior or mid-level software engineer, it can give you an idea of the responsibilities of roles you can evolve into later in your career. This can also make you more efficient in your day-to-day work by knowing what are common challenges the people you report to face and how you can help them and the overall organisation in general. I read this book cover to cover and it took me a few weeks, since it is relatively light reading. However, you can also read it piecemeal as you go through different phases of your career, since it can give you a quick overview of the challenges and some tips for a new role you might be embarking into._
+
+<br/>
+
+### The Phoenix Project
+
+![The Phoenix project cover image](../assets/img/posts/book_covers/the_phoenix_project.jpg){:class="img-pair-left"}
+
+_This is one of the few books of its kind. It is a book about software development practices, which is not that unique. However, the interesting aspect is it's actually a novel. It is about Bill an IT manager at a company called Parts Unlimited. The story starts with Bill getting a promotion from the CEO of the company and becoming responsible for one of the critical IT projects of the company. As the story unfolds, Bill realises how inefficient the company is and gradually manages to turn the ship around. The book presents a lot of practices and methodologies that later became known as DevOps, but the reader gets a more practical illustration of them. Apart from DevOps, the book has various other gems. For example, I ended up finding about systems thinking after reading it. I enjoyed this book so much that I finished it within a week and I am not a big fan of novels, so that must be saying something about the book._
+
+<br/>
+
+### SQL Performance Explained
+
+![SQL Performance Explained cover image](../assets/img/posts/book_covers/sql_performance_explained.jpg){:class="img-pair-left"}
+
+_I came across this book out of a coincidence, but I never regretted investing the time to read it. It can give you a great understanding of how to use a relational database efficiently. A great number of applications rely on relational databases nowadays, so it's highly likely you will be able to put what you learn into practice. It covers many different aspects, but even just the section about indexes is worth its money._
+
+<br/>
+
+### Computer Networking: A top-down approach
+
+![SQL Performance Explained cover image](../assets/img/posts/book_covers/computer_networking_top_down.jpg){:class="img-pair-left"}
+
+_This is the classical textbook about networking of computer systems. This is on its own a huge field, but a lot of effort has been put into the book so that information is presented in a linear fashion so that readers without a technical background can follow along. Fun fact: I was given this book during my undergraduate studies. Of course, I never got the time to read it. 10 years later, while working as a software engineer for almost a decade I came across it and decided to invest the time to read it. Needless to say I still got to learn a lot. The explanations were so clear, I ended up wondering how I could be so confused about BGP during my undergrad._
+
+<br/>
+
+### Test-Driven Development: by example
+
+![Test-Driven Development by example cover image](../assets/img/posts/book_covers/tdd.jpg){:class="img-pair-left"}
+
+_This is a book about TDD written by the inventor of TDD. It's been several years, since I read this book. I remember it was during the first 2-3 years after I started writing software professionally. TDD was becoming quite trendy back then, but there was also a lot of noise making it easier for newcomers. I recall I liked this book a lot, because Kent explained the concept very simply and through practical code examples. The book is essentially him solving simple programming problems and explaining the process along the way. That said, I would say this book is a good fit for newcomers to TDD, but it might prove to be a bit boring for people with practical TDD experience._
+
+<br/>
