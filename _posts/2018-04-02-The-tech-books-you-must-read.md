@@ -11,7 +11,7 @@ tags: [tech, books, personal, development, software]
 
 This post is part of the ["Things you MUST do (if you haven't yet)" series]({{ site.baseurl }}{% post_url 2018-03-25-The-things-you-must-do %}), covering books about technology and software. If you want to read a bit more of my rambling on why I started doing this, feel free to read the original post, linked above.
 
-This post contains some of the best tech books I've read so far. Every suggestion comes with a brief summary of what I gained from each book and why I think it's worth investing the time to read it. Similar to all the posts belonging in this series, keep in mind this is a (constant) work-in-progress, so entries might be added without further notice.
+This post contains some of the best technical books I've read so far. Disclaimer: some of these books might not be purely technical depending on your definition, but I believe they can still be useful to technologists (and more specifically, people involved in the process of software development) and this is why they are included in this list. Every suggestion comes with a brief summary of what I gained from each book and why I think it's worth investing the time to read it. Similar to all the posts belonging in this series, keep in mind this is a (constant) work-in-progress, so entries might be added without further notice.
 
 <br/>
 
@@ -70,5 +70,11 @@ _This is the classical textbook about networking of computer systems. This is on
 ### Test-Driven Development: by example
 
 _This is a book about TDD written by the inventor of TDD. It's been several years, since I read this book. I remember it was during the first 2-3 years after I started writing software professionally. TDD was becoming quite trendy back then, but there was also a lot of noise making it easier for newcomers. I recall I liked this book a lot, because Kent explained the concept very simply and through practical code examples. The book is essentially him solving simple programming problems and explaining the process along the way. That said, I would say this book is a good fit for newcomers to TDD, but it might prove to be a bit boring for people with practical TDD experience._
+
+<br/>
+
+### Black Box Thinking: Why some people never learn from their mistakes, but some do
+
+_The title of this book can be a bit misleading. At least, it was to me before I read it. Black box does not refer to treating a system as a black box without the need to understand how it works internally. On the contrary, it refers to the electronic devices used to record all the events happening in an airplane, which is used during investigation of incidents to understand better what went wrong. Fun fact: these boxes are actually orange, not black. This book creates a narrative on how the human species can evolve by studying carefully our mistakes and incrementally tuning our behaviour to course correct. You might think this is not such a big revelation, but the book provides great historical examples that illustrate the power behind this simple idea, such as the ["Scared Straight" program](https://en.wikipedia.org/wiki/Scared_Straight!) or the old practice of [bloodletting](https://en.wikipedia.org/wiki/Bloodletting). Of course, the impact of this idea can be immeasurable when applied in the technological field, but it is illuminating to see how widely it can be applied._
 
 <br/>
