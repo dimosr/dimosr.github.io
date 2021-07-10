@@ -103,6 +103,12 @@ _This is not a single talk, but a series. You can watch part 1 [here](https://ww
 
 <br/>
 
+### [AWS re:Invent 2018: How AWS Minimizes the Blast Radius of Failures](https://www.youtube.com/watch?v=swQbA4zub20)
+
+_Amazon is famous for its engineering philosophy of "you build it, you run it", where software engineers are themselves responsible for the operations of the software systems they have developed. I find this a very interesting approach as it creates both the right incentives and feedback loops. In this talk, Peter Vosshal - a Distinguished Engineer at AWS - gives a great overview of the main techniques used by AWS to reduce the blast radius of failures that might happen. You will learn about things like Region isolation, Availability Zone independence, cell-based architectures, shuffle sharding and various software deployment strategies. It's a lot of information packed in just 55 minutes worth watching by any engineer that is responsible for operating software systems in production._
+
+<br/>
+
 -------------------------------------------------------
 
 <br/>
