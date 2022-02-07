@@ -11,7 +11,10 @@ tags: [tech, books, personal, development, software]
 
 This post is part of the ["Things you MUST do (if you haven't yet)" series]({{ site.baseurl }}{% post_url 2018-03-25-The-things-you-must-do %}), covering books about technology and software. If you want to read a bit more of my rambling on why I started doing this, feel free to read the original post, linked above.
 
-This post contains some of the best technical books I've read so far. Disclaimer: some of these books might not be purely technical depending on your definition, but I believe they can still be useful to technologists (and more specifically, people involved in the process of software development) and this is why they are included in this list. Every suggestion comes with a brief summary of what I gained from each book and why I think it's worth investing the time to read it. Similar to all the posts belonging in this series, keep in mind this is a (constant) work-in-progress, so entries might be added without further notice.
+This post contains some of the best technical books I've read so far. Some of these books might not be purely technical depending on your definition, but I believe they can still be useful to technologists (and more specifically, people involved in the process of software development) and this is why they are included in this list. Every suggestion comes with a brief summary of what I gained from each book and why I think it's worth investing the time to read it. Similar to all the posts belonging in this series, keep in mind this is a (constant) work-in-progress, so entries might be added without further notice. 
+
+**Disclaimer**: some of the links below might be affiliate links, which means if you use them to buy the book, I may earn a small commission at no additional cost to you. You can think of it as buying me a coffee for helping you find a good book.
+{: .notice}
 
 <br/>
 
