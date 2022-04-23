@@ -66,5 +66,5 @@ Some of the guarantees provided by Kafka are the following:
 [^delivery_model]: This means Kafka can support both the *point-to-point* and the *publish-subscribe* model depending on the number of consumers used.
 [^at_least_once_caveat]: Note that this is assuming infinite retries. In practice, a maximum threshold of retries is usually performed, in which case a message might not be delivered if this limit is exhausted.
 [^flush_caveat]: This behaviour is configurable through the values `log.flush.interval.messages` and `log.flush.interval.ms`. It is important to note that this behaviour has implications in the aforementioned durability guarantees, since some of the acknowledged records might be temporarily stored only in the memory of all in-sync replicas  for some time until they are flushed to disk.
-[^zero_copy]: See <https://developer.ibm.com/articles/j-zerocopy>
+[^zero_copy]: See: https://developer.ibm.com/articles/j-zerocopy
 [^ordering_caveat]: Note that ordering guarantees are provided only per partition. Users of Kafka can control partitioning, as described before, to leverage the ordering guarantees.
