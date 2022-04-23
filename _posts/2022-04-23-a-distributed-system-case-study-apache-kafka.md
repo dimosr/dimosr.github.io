@@ -2,8 +2,11 @@
 layout: post
 title: "A distributed system case study: Apache Kafka"
 date: 2022-04-23
+header-img: "assets/img/posts/kafka_logo.png"
 tags: [software, distributed, systems, book, case, study, kafka]
 ---
+
+![Blog post introductory image](../assets/img/posts/kafka_logo.png)
 
 Apache Kafka is an open-source messaging system initially developed by Linkedin[^kafkaPaper], [^kafkaReplicationPaper] and then donated to the Apache Software Foundation[^kafka]. The primary goal of Kafka was:
 
