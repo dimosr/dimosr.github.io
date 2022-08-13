@@ -34,7 +34,7 @@ Hopefully, this post helped you understand what is possible and what is not in t
 
 If you enjoyed it and you are interested in distributed systems, you might also enjoy reading my book, [_Distributed systems for practitioners_](https://distsysbook.co.uk).
 
-**[Update - 13/08/2022]** I recently came across a few blog posts demonstrating how one can leverage ACID transactions of relational databases to quite elegantly build atomic and consistent workflows across systems with approaches like [idempotency keys](https://brandur.org/idempotency-keys) and [transactionally staged job drains](https://brandur.org/job-drain). These are nice examples of the problems described in this post, how they can be approached and the various pitfalls one needs to keep in mind. 
+**[Update - 13/08/2022]** I recently came across a few blog posts demonstrating how one can leverage ACID transactions of relational databases to quite elegantly build atomic and consistent workflows across systems with approaches like [idempotency keys](https://brandur.org/idempotency-keys) and [transactionally staged job drains](https://brandur.org/job-drain). The latter is also similar to a pattern that recently became popular for exchanging data transactionally across microservices, called the [outbox pattern](https://debezium.io/blog/2019/02/19/reliable-microservices-data-exchange-with-the-outbox-pattern/). These are nice examples of the problems described in this post, how they can be approached and the various pitfalls one needs to keep in mind. 
 
 <br/>
 
