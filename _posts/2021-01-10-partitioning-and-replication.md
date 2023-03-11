@@ -13,7 +13,7 @@ In this blog post, I will talk about the two cornerstone concepts in the field o
 
 ## Partitioning
 
-**Partitioning** is the process of splitting the data of a software system into smaller, independent units. Each one of those units is typicalled called a **partition**. We can then assign one or more partitions to a single machine, where this machine will be responsible for serving requests for the associated data. These requests can generally belong in two main categories: requests that retrieve some data (read requests) and requests that update some data or create new data (write requests).  
+**Partitioning** is the process of splitting the data of a software system into smaller, independent units. Each one of those units is typically called a **partition**. We can then assign one or more partitions to a single machine, where this machine will be responsible for serving requests for the associated data. These requests can generally belong in two main categories: requests that retrieve some data (read requests) and requests that update some data or create new data (write requests).  
 
 ![Partitioning diagram](../assets/img/posts/partitioning.png)
 
