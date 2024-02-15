@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Consistent Hashing for horizontal partitioning"
-date: 2023-05-15
+date: 2023-02-14
 header-img: "assets/img/posts/consistent_hashing_header_image.jpg"
 tags: [software, distributed, systems, book, partitioning, horizontal, scaling]
 ---
