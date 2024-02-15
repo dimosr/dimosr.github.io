@@ -8,7 +8,8 @@ tags: [software, distributed, systems, book, partitioning, horizontal, scaling]
 
 ![Blog post introductory image](../assets/img/posts/consistent_hashing_header_image.jpg)
 
-One of the main techniques to build distributed systems that can scale to large volumes of data and traffic is horizontal scaling, which involves partitioning a large dataset across different physical machines.
+One of the main techniques to build distributed systems that can scale to large volumes of data and traffic is (horizontal scaling)({{ site.baseurl }}{% post_url 2021-01-10-partitioning-and-replication %})
+, which involves partitioning a large dataset across different physical machines.
 A quite popular method to partition that data is known as **hash partitioning**, where a hash function is applied to a specific attribute of each record, resulting in a number that determines which partition (and thus which machine) this record belongs to. 
 For the sake of simplicity, let's assume we have one partition per node and a hash function that returns an integer. If we have `n` number of machines in our system and trying to identify which machine a record with an attribute called `id` is located at, then we could calculate it using the formula `hash(id) mod n`. 
 This mapping process needs to be done both when writing a new record and when receiving a request to find a record for a specific value of this attribute.
