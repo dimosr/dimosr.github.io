@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Aurora DSQL - A technical summary"
-date: 2024-12-26
+date: 2024-12-25
 tags: [aws, aurora, dsql, distributed, systems ]
 ---
 
