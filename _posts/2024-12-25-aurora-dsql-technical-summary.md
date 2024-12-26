@@ -28,16 +28,16 @@ On the positive side, snapshot isolation can be implemented in a distributed sys
 
 ## Consensus elements
 
-Any geo replicated database system needs a way to replicate data across locations in a safe way. Typically this is done via a consensus algorithm, such as Paxos or Raft that guarantee strong consistency (i.e. linearizability) and progress as long as aajority of nodes is healthy. This is the case for DSQL. I haven't found public information on the exact details of the algorithm, but reading between the lines of public information I suspect the journal uses a consensus algorithm for replicating the log. It's unclear whether the adjudicator also uses a consensus protocol, but given the journal is a generic replicated log and all the validation logic is done externally on the adjudicator, I suspect a consensus protocol is used by that component too either directly or indirectly (e.g. as part of a leadership protocol for adjudicators).
+Any geo replicated database system needs a way to replicate data across locations in a safe way. Typically this is done via a consensus algorithm, such as Paxos or Raft that guarantee strong consistency (i.e. linearizability) and progress as long as a majority of nodes is healthy. This is the case for DSQL. I haven't found public information on the exact details of the algorithm, but reading between the lines of public information I suspect the journal uses a consensus algorithm for replicating the log. It's unclear whether the adjudicator also uses a consensus protocol, but given the journal is a generic replicated log and all the validation logic is done externally on the adjudicator, I suspect a consensus protocol is used by that component too either directly or indirectly (e.g. as part of a leadership protocol for adjudicators).
 
 
 Interestingly, the adjudicator and the journal are likely to have a lot of similar functionalities, which is why in some systems the same roles are served by a single component. Dosaggregatimg them allows for abstraction and reuse of the log across systems and easier evolution of each of them at the cost of an extra round trip, since the adjudicator needs to consume the records of the journal to have an up to date view required to make right transaction validity decisions.
 
-## Scalability and fault Tolerance
+## Scalability and Fault Tolerance
 
 Distributed systems typically achieve scalability and fault tolerance via a combination of [partitioning and replication]({{ site.baseurl }}{% post_url 2021-01-10-partitioning-and-replication %}). This is true for DSQL too. Data is partitioned at all levels, with each storage engine, adjudicator and journal only storing a subset of the data. Interestingly, the partitinioning scheme is different between different levels. For instance, the adjudicator and the storage engines use different partitioning schemes that serve their corresponding purposes in the best way, e.g. allowing efficient validation of transactions vs providing quick access to data.
 
-Data is also replicated across different AZs or regions depending on the setup. The only exception is query planners that only contain transient state as we mentioned previously and thus don't require replication to prevent data loss. For adjudicators, a transaction might contain writes to records that are partitioned into separate adjudicators, in which case adjudicator use a cross-partitions replication protocol that uses a variant of 2-phase commit. This is not needed for the journal, since each transaction always contains all statements as explained above and so there is never a need for cross partition writes.
+Data is also replicated across different AZs or regions depending on the setup. The only exception is query processors that only contain transient state as we mentioned previously and thus don't require replication to prevent data loss. For adjudicators, a transaction might contain writes to records that are partitioned into separate adjudicators, in which case adjudicator use a cross-partitions replication protocol that uses a variant of 2-phase commit. This is not needed for the journal, since each transaction always contains all statements as explained above and so there is never a need for cross partition writes.
 
 In the typical deployment across 2 regions, a duplicate set of replicas for each of the aforementioned components is deployed on each region. The only exception is the journal, which contains an extra replica set in a 3rd witness region, which doesn't receive and read/write but participates in consensus so that the system can retain a majority quorum and remain available in case one region is lost or is inaccessible.
 
@@ -68,6 +68,12 @@ And [here](https://aws.amazon.com/blogs/database/concurrency-control-in-amazon-a
 
 Happy reading!
 
+
+<br/>
+
+-------------------------------------------------------
+
+<br/>
 
 [^spannerPaper]: Corbett, James C. et al., “Spanner: Google’s Globally Distributed Database” in ACM Trans. Comput. Syst., 2013.
 [^calvinPaper]: Thomson, Alexander et al., “Calvin: fast distributed transactions for partitioned database systems” in SIGMOD '12: Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data.
