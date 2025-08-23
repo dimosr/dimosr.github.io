@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spatial indexes and where to find them"
-date: 2025-23-08
+date: 2025-08-23
 excerpt: "An introduction to spatial indexing and querying spatial data efficiently"
 header-img: "assets/img/posts/spatial_indexes_blog_headline.png"
 tags: [software, distributed, systems, data, spatial, indexing]
