@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wikiskill - Skills can actually boost accuracy even for larger models"
+title: "WikiSkill - Skills can actually boost accuracy even for larger models"
 date: 2026-11-09
 excerpt: "WikiSkill - Skills can actually boost accuracy even for larger models"
 header-img: "assets/img/posts/wikiskill_architecture.png"
