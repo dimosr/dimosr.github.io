@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wikiskill"
+title: "Wikiskill - Skills can actually boost accuracy even for larger models"
 date: 2026-11-09
 excerpt: "WikiSkill - Skills can actually boost accuracy even for larger models"
 header-img: "assets/img/posts/wikiskill_architecture.png"
@@ -19,11 +19,11 @@ The TL;DR of how the system works is:
 
 ![Architecture of the WikiSkill system](../assets/img/posts/wikiskill_architecture.png)
 
-There were a few interesting (and in some cases counter-intuitive) takeaways:
-* Improvements from skill development manifest even as they move to larger models (which goes a bit against general intuition that advanced models require less context/steering). Interestingly, the improvements are even larger for larger models.
-* Skill development via a different model can bring different results, compared to developing the skill with the inference agent's model. 
+There were a **few interesting (and in some cases counter-intuitive) takeaways**:
+* **Improvements from skill development manifest even as they move to larger models** (which goes a bit against general intuition that advanced models require less context/steering). Interestingly, the improvements are even larger for larger models.
+* **Skill development via a different model can bring different results, compared to developing the skill with the inference agent's model**. 
   * An example is applying skill development with a smaller model has negative effects on a larger model, as skill development focuses on low-level details on tool calling etc. that benefit smaller models but restrict larger models.
-* Based on ablation study, providing Wiki access to the inference agent (on top of skill access) degrades accuracy, compared to providing only skill access. This can be explained by the fact that when the anference agent has access to both skills and the wiki during training rollouts, some task-solving knowledge may be obtained directly from the wiki rather than the skills, which can make the resulting trajectories less informative for skill development.
+* **Based on ablation study, providing Wiki access to the inference agent (on top of skill access) degrades accuracy, compared to providing only skill access**. This can be explained by the fact that when the anference agent has access to both skills and the wiki during training rollouts, some task-solving knowledge may be obtained directly from the wiki rather than the skills, which can make the resulting trajectories less informative for skill development.
 
 ![Improvement with skills over different models](../assets/img/posts/wikiskill_graph.png)
 
